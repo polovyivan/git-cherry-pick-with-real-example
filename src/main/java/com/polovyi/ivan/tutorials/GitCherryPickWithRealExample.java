@@ -6,9 +6,15 @@ public class GitCherryPickWithRealExample {
 
         methodDeployedInProduction();
 
+        methodFromFeature2();
+
     }
 
     private static void methodDeployedInProduction() {
         System.out.println("Production code!");
+    }
+
+    private static void methodFromFeature2() {
+        System.out.println("Awesome feature 2!");
     }
 }
