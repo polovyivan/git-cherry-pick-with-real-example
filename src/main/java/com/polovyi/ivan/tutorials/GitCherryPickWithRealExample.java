@@ -10,6 +10,9 @@ public class GitCherryPickWithRealExample {
 
         methodFromFeature2();
 
+        methodFromFeature3();
+
+
     }
 
     private static void methodDeployedInProduction() {
@@ -23,4 +26,9 @@ public class GitCherryPickWithRealExample {
     private static void methodFromFeature2() {
         System.out.println("Awesome feature 2!");
     }
+
+    private static void methodFromFeature3() {
+        System.out.println("Awesome feature 3!");
+    }
+
 }
